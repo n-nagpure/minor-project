@@ -1,0 +1,171 @@
+body {
+  background: linear-gradient(135deg, #f7f8ff 0%, #fff2f6 100%);
+  color: #1d2671;
+}
+
+.auth-card {
+  max-width: 440px;
+  border: 0;
+  box-shadow: 0 10px 25px rgba(29, 38, 113, 0.12);
+}
+
+.app-navbar {
+  background: linear-gradient(90deg, #1d2671 0%, #c33764 100%);
+}
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.navbar .nav-link {
+  color: #ffffffcc !important;
+}
+
+.navbar .nav-link:hover {
+  color: #fff !important;
+}
+
+.card {
+  border: 1px solid #e9e9f7;
+  box-shadow: 0 8px 18px rgba(29, 38, 113, 0.06);
+}
+
+.btn-primary {
+  background-color: #c33764 !important;
+  border-color: #c33764 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #a52d54 !important;
+  border-color: #a52d54 !important;
+}
+
+.btn-outline-secondary {
+  border-color: #1d2671 !important;
+  color: #1d2671 !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #1d2671 !important;
+  color: #fff !important;
+}
+
+a {
+  color: #c33764;
+}
+
+a:hover {
+  color: #1d2671;
+}
+
+.badge.bg-success {
+  background-color: #1d2671 !important;
+}
+
+body[data-theme="dark"] {
+  background: linear-gradient(135deg, #151a3f 0%, #3b1f37 100%);
+  color: #eef1ff;
+}
+
+body[data-theme="dark"] .card {
+  background-color: #1f2559;
+  color: #eef1ff;
+  border-color: #3e467d;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+body[data-theme="dark"] .text-muted,
+body[data-theme="dark"] .form-text {
+  color: #c7ccef !important;
+}
+
+body[data-theme="dark"] .form-control,
+body[data-theme="dark"] .table,
+body[data-theme="dark"] .table th,
+body[data-theme="dark"] .table td {
+  background-color: #171c46;
+  color: #eef1ff;
+  border-color: #41497b;
+}
+
+body[data-theme="dark"] .form-control::placeholder {
+  color: #9ca3af !important;
+}
+
+.product-image-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e9e9f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body[data-theme="dark"] .product-image-container {
+  background: #171c46;
+  border-color: #41497b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+  display: block;
+}
+
+body[data-theme="dark"] .btn-outline-secondary {
+  border-color: #c33764 !important;
+  color: #ffd5e5 !important;
+}
+
+body[data-theme="dark"] .btn-outline-secondary:hover {
+  background-color: #c33764 !important;
+  color: #fff !important;
+}
+
+body[data-theme="dark"] a {
+  color: #ff9bbc;
+}
+
+body[data-theme="dark"] a:hover {
+  color: #d4dcff;
+}
+
+.navbar-brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.navbar-text {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-size: 1.25rem;
+  color: #eef1ff;
+}
+
+@media (max-width: 576px) {
+  .navbar-text {
+    display: none;
+  }
+  
+  .navbar-logo {
+    height: 35px;
+  }
+}
